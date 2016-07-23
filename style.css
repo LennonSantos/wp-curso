@@ -1,0 +1,126 @@
+/*
+Theme Name: Curos WP
+Theme URI: http://daviwp.com
+Description: Site Para o curso de WP
+Author: Daviwp
+Author URI: http://daviwp.com
+Version: 1.0
+*/
+
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	font-family: "arial", sans-serif;
+	font-size: 62.5%;	
+}
+
+header h1{
+	font-size: 4em;
+	padding: 1em;
+	text-align: center;
+}
+
+header h1:after{
+	background-color: #222;
+	content: "";
+	display: block;
+	height: 2px;
+	margin: 0.20em auto;
+	width: 100px;
+}
+
+#artigos{
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 600px;
+}
+section h2{
+	font-size: 2.5em;
+	padding: 0.4em 0em;
+}
+
+article{
+	display: block;
+}
+
+article figure{
+	background-color: #1abc9c;
+	display: inline-block;
+	height: 150px;
+	float: left;
+	position: relative;
+	width: 150px;
+}
+
+article figure figcaption{
+	background-color: rgba(0,0,0,.8);
+	color: #fff;
+	font-size: 1.5em;
+	height: 100%;
+	left: 0px;
+	opacity: 0;
+	padding: 0.666em;
+	position: absolute;
+	top: 0px;
+	transition: opacity 0.3s;
+	width: 100%;
+}
+
+article figure figcaption:hover{
+	opacity: 1;
+}
+
+article .content-post{
+	background-color: #ddd;
+	display: inline-block;
+	float: right;
+	height: 150px;
+	padding: 1em;
+	overflow: hidden;
+	width: 450px;
+}
+
+article .content-post h3{
+	font-size: 1em;
+	padding: 0em 1em;
+}
+
+article .content-post h3 a{
+	color: #333;
+	font-size: 2em;
+}
+
+article .content-post > p{
+	font-size: 1.3em;
+	padding: 0.769em;
+	line-height: 130%;
+}
+
+article footer{
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 4em;
+	width: 100%;
+}
+
+article footer > p{
+
+	font-size: 1.3em;
+	padding: 0.769em 0em;
+}
+
+
+
+
+
+
+
+
+
